@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Type</title>
+</head>
+<body>
+    <script>
+        // Data Types in JavaScript
+        // 01. String
+        let name = "Imakshi"
+        let message = 'Hello Student'
+
+        console.log(name)
+        console.log(message)
+
+        //02. Number
+        let ages = 25
+        let x = 3.14
+
+        console.log(age)
+        console.log(x)
+
+        //03.Boolean
+        let isStudent = true;
+        let isGraduated = false;
+
+        console.log(isStudent);
+        console.log(isGraduated);
+
+        // 04.Null
+        let emptyValue = null;
+        console.log(emptyValue) // this means the variable exits,but currently gives null value
+
+        // 05.Undefined
+        let uninitializedVariable;
+        console.log(uninitializedVariable) //This means the variable has been
+
+        // 06. object
+        let student = {
+            name : "Imakshi",
+            age: 25,
+            isStudent: true
+        };
+    </script>
+
+    <script>
+        let StudentName = "Imakshi"
+        const country = "Sri Lanka"
+        var age = 21
+
+        //Data Type
+        let isStudents = true ;
+        let mark = 86;
+        let address = null;
+        let grade;
+
+        //output
+        console.log(StudentName)
+        console.log(country)
+        console.log(age)
+
+        console.log(typeof StudentName)
+        console.log(typeof mark)
+        console.log(typeof isStudents)
+        console.log(typeof grade)
+
+        
+        // console command 
+
+        // 01. console prints the message in the console of the browser
+
+        console.log("Hello Student")
+        console.log(10 + 5)
+
+        let names = "Nimal"
+        console.log(names);
+        
+        // 02. Error example
+
+        let agee = -5
+
+        if (agee < 0){
+            console.error("Age cannot be negative");
+        }
+
+        // 03.Warning Example 
+
+        let marks = 45;
+        if(marks <50){
+            console.warn("Marks are below passing grade")
+        }
+
+        //04. Info Example
+        console.info("This is an informational message")
+
+        // 05. Debug message
+        console.debug("This is a debug message")
+
+        // 06. Table Example 
+       let students = [
+            {name:"Nimal",age :21},
+            {name:"Kumara",age :27},
+            {name:"Saman",age :20},
+        ];
+        console.table(students);
+    </script>
+</body>
+</html>
