@@ -56,7 +56,7 @@ text();
 
 if(true){
     let a = 5;
-    const b = 10
+    const b = 10;
 }
 
 // console.log(x); can't creat outside function
